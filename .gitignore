@@ -1,0 +1,9 @@
+node_modules/
+dist/
+.DS_Store
+*.log
+ignore/
+public/handwritten-glycemia-scan.png
+src/data.ts
+src/types.ts
+tsconfig.app.tsbuildinfo
