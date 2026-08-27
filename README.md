@@ -1,6 +1,6 @@
-# MD Tech
+# Valentis
 
-Landing page institucional da MD Tech.
+Landing page institucional da Valentis.
 
 ## Desenvolvimento local
 

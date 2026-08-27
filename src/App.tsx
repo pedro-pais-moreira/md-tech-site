@@ -86,12 +86,8 @@ function App() {
       <div className="grain" aria-hidden="true" />
 
       <header className="site-header">
-        <div className="brand" aria-label="MD Tech">
-          <span className="brand-mark" aria-hidden="true">
-            <i />
-            <i />
-          </span>
-          <span className="brand-name">MD Tech</span>
+        <div className="brand" aria-label="Valentis">
+          <span className="brand-name">Valentis</span>
         </div>
       </header>
 

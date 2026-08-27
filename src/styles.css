@@ -121,35 +121,12 @@ a { color: inherit; }
 .brand {
   display: inline-flex;
   align-items: center;
-  gap: 13px;
   text-decoration: none;
   cursor: default;
   user-select: none;
 }
 
-.brand-mark {
-  position: relative;
-  width: 34px;
-  height: 34px;
-  display: block;
-  overflow: hidden;
-  border-radius: 10px;
-  background: var(--blue);
-  box-shadow: 0 8px 24px rgba(23,104,229,.18);
-}
-
-.brand-mark::before, .brand-mark::after, .brand-mark i {
-  content: '';
-  position: absolute;
-  background: rgba(255,255,255,.96);
-}
-
-.brand-mark::before { width: 3px; height: 16px; left: 9px; top: 9px; border-radius: 2px; }
-.brand-mark::after { width: 3px; height: 16px; right: 9px; top: 9px; border-radius: 2px; }
-.brand-mark i:first-child { width: 3px; height: 12px; left: 13px; top: 10px; border-radius: 2px; transform: rotate(-35deg); transform-origin: top; }
-.brand-mark i:last-child { width: 3px; height: 12px; right: 13px; top: 10px; border-radius: 2px; transform: rotate(35deg); transform-origin: top; }
-
-.brand-name { font: 700 20px/1 'Manrope', sans-serif; letter-spacing: -.6px; }
+.brand-name { font: 700 23px/1 'Manrope', sans-serif; letter-spacing: -.75px; }
 .hero {
   position: relative;
   min-height: calc(100svh - 118px);
